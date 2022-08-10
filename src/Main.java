@@ -40,7 +40,7 @@ public class Main {
         if (deviceYear < currentYear) {
             output = "Установите облегчённую версию ";
         } else {
-            output = "Установите обычную версию";
+            output = "Установите обычную версию ";
         }
         if (clientOs == 1) {
             output += "Андройд";
@@ -53,9 +53,9 @@ public class Main {
     private static void printLearYear(int year) {
         String output;
         if (isLearYear(year)) {
-            output = year + "високосный год";
+            output = year + " високосный год";
         } else {
-            output = year + "не високосный год";
+            output = year + " не високосный год";
 
         }
         System.out.println(output);
